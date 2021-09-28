@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Cash Counter</title>
+  </head>
+  <body>
+    <header><h1>Cash Counter</h1></header>
+    <main>
+      <div id="cash-counter-container">
+        <div id="error-div"></div>
+        <div id="input">
+          <div class="input-elements">
+            <input
+              type="number"
+              name="total-amount-received"
+              id="tmr"
+              placeholder="Enter total amount received"
+            />
+          </div>
+          <div class="input-elements">
+            <input
+              type="number"
+              name="total-billing-amount"
+              id="bill"
+              placeholder="Enter billing amount"
+            />
+          </div>
+          <button type="submit" onclick="takeData()">Enter</button>
+        </div>
+        <div id="output-div">
+          <div class="output-boxes">
+            <img src="images/2000-rupee.png" alt="" />
+            <div class="output-number" id="two-thousand-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/500-rupee.png" alt="" />
+            <div class="output-number" id="five-hundred-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/200-rupee.jpg" alt="" />
+            <div class="output-number" id="two-hundred-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/100-rupee.png" alt="" />
+            <div class="output-number" id="one-hundred-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/50-rupee.jpg" alt="" />
+            <div class="output-number" id="fifty-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/20-rupee.png" alt="" />
+            <div class="output-number" id="twenty-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/10-rupee.png" alt="" />
+            <div class="output-number" id="ten-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img class="coins" src="images/53-rupee.png" alt="5-rupee" />
+            <div class="output-number" id="five-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img class="coins" src="images/23-rupee.png" alt="2-rupee" />
+            <div class="output-number" id="two-output">0</div>
+          </div>
+          <div class="output-boxes">
+            <img src="images/pulse-candy.jpg" alt="" />
+            <div class="output-number" id="pulse-output">0</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <ul id="social-media-tab">
+        <li>
+          <a class="social-media-links" href="https://github.com/iHarryD">
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            class="social-media-links"
+            href="https://www.linkedin.com/in/prashant-kumar-a97251195/"
+          >
+            LinkedIn
+          </a>
+        </li>
+      </ul>
+      <p id="portfolio-link">
+        Website created by
+        <a href="https://iharryd.github.io/personal-portfolio/">Harry</a>
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
